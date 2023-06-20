@@ -1,2 +1,2 @@
 
-web: gunicorn Django-ecommerce-shop.wsgi
+web: gunicorn shop.wsgi
