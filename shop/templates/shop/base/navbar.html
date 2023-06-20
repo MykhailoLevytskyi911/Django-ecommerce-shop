@@ -45,8 +45,8 @@
                 <ul class="site-menu js-clone-nav d-none d-md-block">
                     <li><a href="/">Головна</a></li>
                     <li><a href="{% url 'shop:product_list' %}">Магазин</a></li>
-                    <li><a href="shop.html">Про нас</a></li>
-                    <li><a href="contact.html">Контакти</a></li>
+                    <li><a href="{% url 'shop:about' %}">Про нас</a></li>
+                    <li><a href="{% url 'shop:contacts' %}">Контакти</a></li>
                 </ul>
             </div>
         </nav>
